@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: ValerieHMoore
 header-img: img/home-bg.png
 email: periwinkle17@outlook.com
 copyright_name: ValerieHMoore
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Full Stack Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ValerieHMoore
