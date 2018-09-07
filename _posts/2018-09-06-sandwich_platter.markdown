@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sandwich Platter"
-date:       2018-09-06 19:13:43 +0000
+date:       2018-09-06 15:13:44 -0400
 permalink:  sandwich_platter
 ---
 
