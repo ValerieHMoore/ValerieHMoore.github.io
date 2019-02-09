@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript in Slo-Mo"
-date:       2019-02-09 02:56:37 +0000
+date:       2019-02-08 21:56:38 -0500
 permalink:  javascript_in_slo-mo
 ---
 
@@ -12,7 +12,8 @@ Sandwich Platter is a recipe app with sandwiches as the topic. Instead of redire
 
 I created a new landing page where the [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) content would be sent. Then I started building the JavaScript file in tiny increments. Once users log in, they see a page with three links: All Sandwiches, My Sandwiches, and Build a New Sandwich. My first function does only one thing: listen for a click on the All Sandwiches link. You can see that I put in a message to the console to test this before moving on:
 
-```function listenForClickAllSandwiches() {
+```JavaScript
+function listenForClickAllSandwiches() {
     let doc = document.getElementById('all-sandwiches')
     doc.addEventListener('click', function (event) {
         event.preventDefault()
@@ -24,7 +25,8 @@ I created a new landing page where the [AJAX](https://en.wikipedia.org/wiki/Ajax
 
 Once I saw the “My button works” message in the browser’s console, I wrote the next step. This time, I displayed the sandwich index data in the console to confirm:
 
-```function getAllSandwiches() {
+```JavaScript
+function getAllSandwiches() {
     $.get("/sandwiches.json", function(data){
         let sandwiches = data
         let emptystring = ""
