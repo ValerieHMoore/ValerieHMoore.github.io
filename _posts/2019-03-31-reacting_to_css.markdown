@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Reacting to CSS"
-date:       2019-04-01 02:47:53 +0000
+date:       2019-03-31 22:47:54 -0400
 permalink:  reacting_to_css
 ---
 
@@ -13,7 +13,8 @@ Styled-Components is a clean and simple way to put CSS into a React app. To inst
 
 In your components folder, create a file with a descriptive name for your design element. For my background image and global font formatting, I put the following in Wrapper.js; note the backticks around the CSS below:
 
-```import styled from "styled-components";
+```
+import styled from "styled-components";
 import img from './shoppingCart.jpg';
 
 const Wrapper = styled.div`
@@ -25,11 +26,13 @@ const Wrapper = styled.div`
     background-size: cover;
 `;
 
-export default Wrapper```
+export default Wrapper
+```
 
 To use this style, I imported the Wrapper component into App.js and wrapped my code in it as follows:
 
-```class App extends Component {
+```
+class App extends Component {
   render() {
     return (
       <Wrapper>
@@ -48,8 +51,10 @@ To use this style, I imported the Wrapper component into App.js and wrapped my c
 ```
 
 I added styled-components for Header and Button, and used them as follows:
-```<Header>Grocery List</Header>
-    <Link to="/items/new/item"><Button type="button">Add Item</Button></Link>```
+```
+<Header>Grocery List</Header>
+    <Link to="/items/new/item"><Button type="button">Add Item</Button></Link>
+```
 
 I created a styling folder and dragged in all my new styled-components and the background photo. Now all my CSS is in one place, with sensical names:
 
