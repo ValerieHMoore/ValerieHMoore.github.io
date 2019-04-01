@@ -13,42 +13,11 @@ Styled-Components is a clean and simple way to put CSS into a React app. To inst
 
 In your components folder, create a file with a descriptive name for your design element. For my background image and global font formatting, I put the following in Wrapper.js; note the backticks around the CSS below:
 
-```
-import styled from "styled-components";
-import img from './shoppingCart.jpg';
-
-const Wrapper = styled.div`
-    font-family: Georgia;
-    font-size: 16px;
-    font-weight: bold;
-    color: darkgreen;
-    background-image: url(${img});
-    background-size: cover;
-`;
-
-export default Wrapper
-```
+![](https://i.imgur.com/GndnTFr.png)
 
 To use this style, I imported the Wrapper component into App.js and wrapped my code in it as follows:
 
-```
-class App extends Component {
-  render() {
-    return (
-      <Wrapper>
-        <Router>
-          <div className="App">
-            <Route exact path='/' component={Home} />
-            <Route exact path='/items' component={ItemsContainer} />
-            <Route exact path="/items/new/item" component={AddItemContainer} />
-            <Route exact path={`/items/:itemId`} component={ItemContainer} />
-          </div>
-        </Router>
-      </Wrapper>
-    );
-  }
-}
-```
+![](https://i.imgur.com/fgj9lO5.png)
 
 I added styled-components for Header and Button, and used them as follows:
 ```
