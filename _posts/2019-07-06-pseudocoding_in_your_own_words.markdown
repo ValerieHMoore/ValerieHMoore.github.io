@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Pseudocoding: In Your Own Words"
-date:       2019-07-06 14:27:01 +0000
+date:       2019-07-06 10:27:02 -0400
 permalink:  pseudocoding_in_your_own_words
 ---
 
@@ -18,7 +18,7 @@ If you find you can’t put it into your own words, copy the test or project req
 Here are the instructions: “You will write a program that, given a word and a list of possible anagrams, selects the correct one(s).” Some students don’t know what an anagram is, so step 1 is to Google that: “An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.” 
 
 ## Rubber Ducking
-“![Mr. Duck](https://celebriducks.com/), I need to compare two words to see if they have the same letters in a different order. If the letters were tiles from Words With Friends, I would just rearrange them. I would put the letters in alphabetical order and compare them.”
+“[Mr. Duck](https://celebriducks.com/)," I need to compare two words to see if they have the same letters in a different order. If the letters were tiles from Words With Friends, I would just rearrange them. I would put the letters in alphabetical order and compare them.”
 
 ## Pseudocode
 Take the word apart into letters and sort them, then put them back together. Google: “ruby how to sort the letters in a word alphabetically.” That led me to this link: https://stackoverflow.com/questions/9464065/how-to-sort-a-strings-characters-alphabetically. The top-voted answer to this question has the following code snippet: str.chars.sort.join. *Aha!* Let’s look at the instructions one more time: turns out there’s a good hint in there! “You will write a program that, given a word and a list of possible anagrams, *selects* the correct one(s).”
