@@ -1,15 +1,14 @@
 # Site settings
+author: Valerie H. Moore
 title: ValerieHMoore
-header-img: img/blog-homepage3.png
+header-img: img/home-bg.png
 email: periwinkle17@outlook.com
-copyright_name: ValerieHMoore
+copyright_name: Valerie H. Moore
 description: > # this means to ignore newlines until "baseurl:"
   Full Stack Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ValerieHMoore
-learn_profile: ValerieHMoore
-email_username: periwinkle17@outlook.com
 
 # Build settings
 markdown: kramdown
