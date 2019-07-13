@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Here's the Culprit: Ruby Debugging"
-date:       2019-07-13 13:10:20 +0000
+date:       2019-07-13 09:10:22 -0400
 permalink:  heres_the_culprit_ruby_debugging
 ---
 
@@ -23,8 +23,9 @@ def num_points_scored(name)
 end
 ```
 
+
 ## Loops
-Is your code stuck in an infinite loop? Or conversely, did you accidentally put a return *inside* your loop instead of *after* you have finished iterating over every item in the array? A return inside a loop will stop the loop. Notice how far down the return is in the following method. You could insert a binding.pry here and move it around to see what you are getting in different locations in your code before finally settling on a location for the return.
+Is your code stuck in an infinite loop? Or conversely, did you accidentally put a return *inside* your loop instead of *after* you have finished iterating over every item in an array? A return inside a loop will stop the loop. Notice how far down the return is in the following method. You could insert a binding.pry here and move it around to see what you are getting in different locations in your code before finally settling on a location for the return.
 
 ```
 def team_names
@@ -40,8 +41,9 @@ def team_names
 end
 ```
 
+
 ## Equals vs. Comparison
-Using the code example above, if you are defining a variable, you use one equals sign, such as `names_array = []`. If you are trying to compare something, you use a double equals sign, such as `if key == :team_name`. Often students will try to use a single equals sign when making a comparison; if you are trying to compare two things, you need two equals signs.
+Using the code example above, if you are defining a variable, you use one equals sign, such as `names_array = []`. If you are trying to compare something, you use a double equals sign, such as `if key == :team_name`. Often students will try to use a single equals sign when making a comparison. If you are trying to compare two things, you need two equals signs.
 
 ## Data Types
 Pay attention to the type of data you are working with. [Array](https://ruby-doc.org/core-2.4.1/Array.html) methods  such as `collect` and `push` can’t be used on a [string](https://ruby-doc.org/core-2.4.0/String.html) or a [hash](https://ruby-doc.org/core-2.5.1/Hash.html). If you are not sure what type of data you are working with, check the data that’s being passed into your method, or use a binding.pry to inspect it.
