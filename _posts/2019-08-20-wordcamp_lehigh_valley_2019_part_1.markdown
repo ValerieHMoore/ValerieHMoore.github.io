@@ -31,6 +31,6 @@ Try to make your domain name unique from an aural perspective. The following dom
 
 Chip will be presenting at [WordCamp NYC 2019](https://2019.nyc.wordcamp.org/speaker/chip-edwards/), and an earlier version of his presentation is available [here](https://wordpress.tv/2019/06/26/chip-edwards-what-does-your-brand-look-like-in-a-voice-first-world/).
 
-Stay tuned for Part 2!
+Stay tuned for [Part 2](http://valeriehmoore.com/wordcamp_lehigh_valley_2019_part_2)!
 
 
